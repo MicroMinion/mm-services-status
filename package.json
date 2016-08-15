@@ -4,19 +4,27 @@
   "description": "Detect whether another node is online or offline in MicroMinion platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check-updates": "npm-check",
+    "test": "echo",
+    "2npm": "publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MicroMinion/mm-services-online.git"
   },
-  "author": "Thomas Delaet <thomas@delaet.org>",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": {
+    "name": "Thomas Delaet",
+    "email": "thomas@delaet.org"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MicroMinion/mm-services-online/issues"
   },
   "homepage": "https://github.com/MicroMinion/mm-services-online#readme",
   "dependencies": {
-    "lodash": "^4.15.0"
+    "lodash": "4.15.0"
   }
 }
