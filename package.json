@@ -1,0 +1,22 @@
+{
+  "name": "mm-services-online",
+  "version": "0.0.1",
+  "description": "Detect whether another node is online or offline in MicroMinion platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicroMinion/mm-services-online.git"
+  },
+  "author": "Thomas Delaet <thomas@delaet.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MicroMinion/mm-services-online/issues"
+  },
+  "homepage": "https://github.com/MicroMinion/mm-services-online#readme",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  }
+}
