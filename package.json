@@ -1,7 +1,7 @@
 {
-  "name": "mm-services-online",
+  "name": "mm-services-status",
   "version": "0.0.2",
-  "description": "Detect whether another node is online or offline in MicroMinion platform",
+  "description": "Detects status of MicroMinion node (online/offline and available services)",
   "main": "index.js",
   "scripts": {
     "check-updates": "npm-check",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MicroMinion/mm-services-online.git"
+    "url": "git+https://github.com/MicroMinion/mm-services-status.git"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -21,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MicroMinion/mm-services-online/issues"
+    "url": "https://github.com/MicroMinion/mm-services-status/issues"
   },
-  "homepage": "https://github.com/MicroMinion/mm-services-online#readme",
+  "homepage": "https://github.com/MicroMinion/mm-services-status#readme",
   "dependencies": {
     "lodash": "4.15.0"
   },
